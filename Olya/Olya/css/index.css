@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url(reset.css);
+
+
+
+/* Config */
+
+.page {
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+}
+
+.container  {
+  max-width: 1465px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+span {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  text-align: center;
+
+}
+
+a {
+  color: black;
+}
+/* ================ */
+
+.header {
+  padding: 0 0 30px 0;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.header__nav {
+  padding: 30px 0;
+}
+.header__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.list__nav {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.list__nav a {
+  color: black;
+  text-decoration: none; 
+}
+
+
+/* ======================================= */
+
+
+.hero__header {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__img {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 1px 0;
+}
+.hero__left {
+  padding: 0 30px 0 0;
+}
+.hero__right {
+  padding: 0 0 0 30px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+}
+
+.article__subtitle-one {
+  margin: 30px 0;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* ================================================================== */
+
+
+.main {
+  padding: 200px 0 ;
+  max-width: 100%;
+  max-height: 100%;
+  background: #FBF6F6;
+}
+
+.main__section-one {
+  max-height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__left {
+  margin: 0 0 0 50px;
+}
+
+.main__right {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main__subtitle {
+  width: 500px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+}
+
+.main__img {
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 0 1px 0;
+}
+
+.main__btn {
+  width: 400px;
+}
+
+.main__btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ====================== */
+
+.article__two {
+  display: flex;
+  justify-content: center;
+}
+
+
+.article__subtitle-two {
+  margin: 35px 0 ;
+  width: 800px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ======================= */
+
+.main__bottom {
+  padding: 200px 0 180px 0;
+  max-width: 100%;
+  max-height: 100%;
+  background: #FBF6F6;
+}
+.main__section-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__left-bottom {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.main__subtitle-bottom {
+  width: 500px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+}
+.bottom__btn {
+  width: 400px;
+}
+
+.bottom__btn:hover {
+  transform: translateY(-2px);
+}
+
+.bottom__main-img {
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 0 1px 0;
+}
+
+
+
+/* ======================================= */
+
+
+
+.footer {
+  margin: 60px 0 ;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.list__link {
+  font-size: 23px;
+  line-height: 13px;
+}
+
+.img__footer {
+  padding: 0 0 0 20px;
+  gap: 20px;
+  display: flex;
+  border-left: 2px solid black;
+}
+
+.footer__images {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* ====================== Perfume chapter=============== */
+
+.global {
+  margin: 50px 0;
+  align-items: center;
+}
+
+.global__info-img {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.info__img {
+  position: relative;
+  margin: 0 0 50px 0;
+}
+
+
+
